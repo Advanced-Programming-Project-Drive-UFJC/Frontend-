@@ -1,0 +1,72 @@
+{
+    "name": "folder4",
+    "modification_date": "2021-01-04",
+    "folders": [
+        {
+            "name": "folder3",
+            "modification_date": "2021-01-03",
+            "folders": [
+                {
+                    "name": "folder2",
+                    "modification_date": "2021-01-02",
+                    "folders": [
+                        {
+                            "name": "folder1",
+                            "modification_date": "2021-01-01",
+                            "folders": [],
+                            "files": [
+                                {
+                                    "name": "file1",
+                                    "modification_date": "2021-01-01",
+                                    "size": "1MB",
+                                    "extension": "txt",
+                                    "address": "0x0001"
+                                },
+                                {
+                                    "name": "file2",
+                                    "modification_date": "2021-01-02",
+                                    "size": "2MB",
+                                    "extension": "txt",
+                                    "address": "0x0002"
+                                },
+                                {
+                                    "name": "file3",
+                                    "modification_date": "2021-01-03",
+                                    "size": "3MB",
+                                    "extension": "txt",
+                                    "address": "0x0003"
+                                }
+                            ],
+                            "users": {},
+                            "address": null
+                        }
+                    ],
+                    "files": [
+                        {
+                            "name": "file4",
+                            "modification_date": "2021-01-04",
+                            "size": "4MB",
+                            "extension": "txt",
+                            "address": "0x0004"
+                        },
+                        {
+                            "name": "file5",
+                            "modification_date": "2021-01-05",
+                            "size": "5MB",
+                            "extension": "txt",
+                            "address": "0x0005"
+                        }
+                    ],
+                    "users": {},
+                    "address": null
+                }
+            ],
+            "files": [],
+            "users": {},
+            "address": null
+        }
+    ],
+    "files": [],
+    "users": {},
+    "address": "src/data/folder4.json"
+}

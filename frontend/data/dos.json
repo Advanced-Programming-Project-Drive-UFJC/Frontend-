@@ -1,0 +1,17 @@
+{
+    "name": "dos",
+    "modification_date": "2025-02-13 20:06:51",
+    "folders": [
+        {
+            "name": "cosa",
+            "modification_date": "2025-02-13 20:07:14",
+            "folders": [],
+            "files": [],
+            "users": {},
+            "address": "/home/fallen12/pro_avanzada/backend/Backend-python/backend_python/src/data/dos/cosa/"
+        }
+    ],
+    "files": [],
+    "users": {},
+    "address": "/home/fallen12/pro_avanzada/backend/Backend-python/backend_python/src/data/dos.json"
+}

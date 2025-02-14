@@ -1,0 +1,80 @@
+{
+    "name": "john123",
+    "modification_date": "2021-01-03",
+    "folders": [
+        {
+            "name": "folder2",
+            "modification_date": "2021-01-02",
+            "folders": [
+                {
+                    "name": "folder1",
+                    "modification_date": "2021-01-01",
+                    "folders": [],
+                    "files": [
+                        {
+                            "name": "cosa",
+                            "modification_date": "2021-01-02",
+                            "size": "2MB",
+                            "extension": "txt",
+                            "address": "0x0002/cosatxt/cosatxt/cosatxt/cosatxt"
+                        }
+                    ],
+                    "users": {},
+                    "address": null
+                },
+                {
+                    "name": "folder10",
+                    "modification_date": "2021-01-01",
+                    "folders": [],
+                    "files": [
+                        {
+                            "name": "cosas",
+                            "modification_date": "2021-01-02",
+                            "size": "2MB",
+                            "extension": "txt",
+                            "address": "0x0002/cosatxt/cosatxt/cosatxt/cosatxt"
+                        }
+                    ],
+                    "users": {},
+                    "address": null
+                }
+            ],
+            "files": [],
+            "users": {},
+            "address": null
+        },
+        {
+            "name": "cositas",
+            "modification_date": "2025-02-12 20:59:32",
+            "folders": [],
+            "files": [],
+            "users": {},
+            "address": "/home/fallen12/pro_avanzada/backend/Backend-python/backend_python/src/data/folder3/cositas/"
+        }
+    ],
+    "files": [
+        {
+            "name": "cosa",
+            "modification_date": "2021-01-02",
+            "size": "2MB",
+            "extension": "txt",
+            "address": "0x0002/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt/cosatxt"
+        },
+        {
+            "name": "file2",
+            "modification_date": "2021-01-02",
+            "size": "2MB",
+            "extension": "txt",
+            "address": "0x0002/file2txt/file2txt/file2txt"
+        },
+        {
+            "name": "file3",
+            "modification_date": "2021-01-03",
+            "size": "3MB",
+            "extension": "txt",
+            "address": "0x0003/file3txt/file3txt/file3txt"
+        }
+    ],
+    "users": {},
+    "address": "/home/fallen12/pro_avanzada/backend/Backend-python/backend_python/src/data/john123.json"
+}

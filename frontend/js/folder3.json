@@ -1,0 +1,64 @@
+{
+    "name": "folder3",
+    "modification_date": "2021-01-03",
+    "folders": [
+        {
+            "name": "folder2",
+            "modification_date": "2021-01-02",
+            "folders": [
+                {
+                    "name": "folder1",
+                    "modification_date": "2021-01-01",
+                    "folders": [],
+                    "files": [
+                        {
+                            "name": "file1",
+                            "modification_date": "2021-01-01",
+                            "size": "1MB",
+                            "extension": "txt",
+                            "address": "0x0001"
+                        },
+                        {
+                            "name": "file2",
+                            "modification_date": "2021-01-02",
+                            "size": "2MB",
+                            "extension": "txt",
+                            "address": "0x0002"
+                        },
+                        {
+                            "name": "file3",
+                            "modification_date": "2021-01-03",
+                            "size": "3MB",
+                            "extension": "txt",
+                            "address": "0x0003"
+                        }
+                    ],
+                    "users": {},
+                    "address": null
+                }
+            ],
+            "files": [],
+            "users": {},
+            "address": null
+        }
+    ],
+    "files": [
+        {
+            "name": "file1",
+            "modification_date": "2021-01-01",
+            "size": "1MB",
+            "extension": "txt",
+            "address": "0x0001"
+        },
+        {
+            "name": "file2",
+            "modification_date": "2021-01-02",
+            "size": "2MB",
+            "extension": "txt",
+            "address": "0x0002"
+        }
+        
+    ],
+    "users": {},
+    "address": "src/data/folder3.json"
+}

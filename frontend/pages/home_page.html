@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="fondo" >
+        <div id="fondo_buscador">
+            <input type="text" id="buscador" class="escritores">
+            <button id="buscador_boton" class="boton">Search</button>
+        </div>
+        <div id="opciones">
+            <h2 id="settings">Settings</h2>
+            <img id="engranje" src="../images/40031.png" alt="engranje">
+            <h2 id="titulo_espacio"></h2>
+            <div id="add_options" class="oculto">
+                <button class="boton boton_mas" id="add_folder">add folder</button>
+                <input id="archivo" type="file">
+                <button class="boton boton_mas" id="add_file">add file</button>
+            </div>
+            <button class="boton" id="add_button">Add new +</button>
+            <div id="folder_options" class="oculto">
+                <input type="txt" id="new_folder" placeholder="Folder name">
+                <button class="boton" id="new_folder_button">Create</button>
+            </div>
+            <button class="boton" id="delete_button">Delete</button>
+            <!-- <button class="boton" id="copy_button">Copy</button> -->
+            <button class="boton" id="move_button">Move +</button>
+            <button class="boton" id="rename_button">Rename +</button>
+            <div id="rename_options" class="oculto">
+                <input type="txt" id="new_name" placeholder="New name">
+                <button class="boton" id="new_name_button">Rename</button>
+            </div>            
+            <div id="move_options" class="oculto">
+                <input type="txt" id="folder_name" placeholder="New name">
+                <button class="boton" id="move_file">Move</button>
+            </div>
+            
+        </div>
+        <div id="listas">
+            <select  class="boton" id="sorteo">
+                <option value="File">File</option>
+                <option value="Folder">Folder</option>
+                <option value="Ascending">Ascending (A-Z)</option>
+                <option value="Descending">Descending (Z-A)</option>
+                <option value="Newer">Newer to older</option>
+                <option value="Older">Older to newer</option>
+            </select>
+            <!-- <select class="boton" id="alphabetical" >
+                <option value="Ascending">Ascending (A-Z)</option>
+                <option value="Descending">Descending (Z-A)</option>
+            </select>
+            <select class="boton" id="mod_day" >
+                <option value="Newer">Newer to older</option>
+                <option value="Older">Older to newer</option>
+            </select> -->
+            
+            <button class="boton" id="sort">Sort</button>
+        </div>
+        <div id="contiene">
+        </div>
+
+    </div>
+    <script type="module" src="../js/home.js"></script>
+</body>
+</html>

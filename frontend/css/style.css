@@ -1,0 +1,357 @@
+:root {
+    --color_1: #2E5077;
+    --color_2: #4DA1A9;
+    --color_3: #79D7BE;
+    --color_4: #F6F4F0;
+}
+/*! ----------------------------------------------------------index_login.html*/
+
+body {
+    width: 100½;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: var(--color_1);
+    border: 1px solid transparent;
+    display: grid;
+    place-items: center;
+}
+
+.fondo{
+    background: var(--color_4);
+    width: 95%;
+    height: 90vh;
+    border: 5px solid var(--color_3);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+.titulo {
+    margin: 0;
+    text-align: center;
+    padding: 20px 0 5px 0;
+    font-size:40px;
+    color: var(--color_2);
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color_3);
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px
+}
+#sign_in {
+    color: var(--color_1);
+    font-size: 25px;
+    margin: 30px 0 20px 0;
+}
+#aviso {
+    color: var(--color_1);
+    font-weight: 600;
+    display: none;
+    margin-top: 0;
+}
+.escritores {
+    font-size: 15px;
+    color:var(--color_1);
+    max-width: 50%;
+    font-family:sans-serif;
+    margin: 10px 0 0px 0;
+    padding: 5px 5px 0 0;
+    border: none;
+    border-bottom: 2px solid var(--color_1);
+    background: var(--color_3);
+}
+.escritores::placeholder {
+    color: var(--color_2);
+}
+#contraseña {
+    margin: 20px 0 40px 0;
+}
+#enviar {
+    pointer-events: auto;
+    margin: 0px 0 25px 0;
+    padding: 5px 10px;
+    border: 2px solid var(--color_1);
+    border-radius: 5px;
+    background: var(--color_4);
+}
+.boton {
+    font-size: 15px;
+    color:var(--color_1);
+    font-weight: 600;
+    pointer-events: auto;
+    position: relative; 
+    cursor: pointer;
+    margin: 0px 0 25px 0;
+    padding: 5px 10px;
+    border: 2px solid var(--color_1);
+    border-radius: 5px;
+    background: var(--color_4);
+}
+.boton:hover {
+    background-color: var(--color_1);
+    color: var(--color_4);
+    font-weight: 600;
+}
+#crear_cuenta {
+    margin: 0 0 20px 0;
+}
+
+
+/*! ----------------------------------------------------------create_user.html*/
+
+#create{
+    color: var(--color_1);
+    font-size: 25px;
+}
+#usuario_nuevo {
+    margin: 20px 0 40px 0;
+}
+#titulo_cuenta {
+    padding: 10px 0 10px 0;
+}
+#form_user {
+    margin: 0 0 75px 0;
+}
+
+/*! ------------------------------------------------------create_password.html*/
+
+#form_pass {
+    margin: 0 0 65px 0;
+}
+#texto_pass {
+    color: var(--color_2);
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+#contra_nueva {
+    margin: 20px 0 40px 0;
+}
+
+/*! -----------------------------------------------------------------home_page*/
+
+#fondo_buscador{
+    margin: 0;
+    display: block;
+    font-size: 0;
+    width: 60%;
+}
+#buscador {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px 0 15px;
+    border-radius: 20px 0 0px 20px;
+    height: 30px;
+    border: 2px solid var(--color_1)
+}
+#buscador_button {
+    border-radius: 0px 20px 20px 0px;
+    margin: 0;
+}
+
+#opciones {
+    font-size: 0;
+    width: 70%;
+    position: relative;
+}
+#settings {
+    margin: 0;
+    font-size: smaller;
+    font-weight:400;
+}
+#engranje, #titulo_espacio {
+    display:inline-block;
+    vertical-align: middle;
+}
+#engranje {
+    width: 30px;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: 0 0 0 4px;
+}
+#titulo_espacio{
+    font-size: 30px;    
+    margin:0;
+    /* border: 2px solid black; */
+    width: 90%;
+}
+#titulo_espacio:hover {
+    cursor: pointer;
+}
+#add_button {
+    border-radius: 15px;
+    width: 125px;
+    font-size: 18px;
+    background-color: var(--color_1);
+    color: var(--color_4);
+    margin: 10px 10px 0 0;
+    padding: 5px  15px 5px 15px;
+}
+#add_button:hover{
+    background-color: var(--color_4);
+    color: var(--color_1);
+}
+#add_options {
+    position: absolute;
+    background-color: var(--color_1);
+    border-radius: 5px;
+    /* border-radius: 20px; */
+    top: 75.5px;
+    width: 125px;
+    height: 68px;
+    z-index: 1000;
+    /* visibility: hidden; */
+}
+.boton_mas {
+    width: 100%;
+    margin: 0;
+}
+.oculto {
+    display: none;
+    
+}
+#folder_options {
+    position: absolute;
+    background-color: var(--color_1);
+    border-radius: 5px;
+    top: 75.5px;
+    left: 125px;
+    width: 125px;
+    height: 68px;
+    z-index: 1000;
+}
+#rename_options {
+    position: absolute;
+    background-color: var(--color_1);
+    border-radius: 5px;
+    top: 75.5px;
+    left: 302px;
+    width: 125px;
+    height: 68px;
+    z-index: 1000;
+}
+#move_options {
+    position: absolute;
+    background-color: var(--color_1);
+    border-radius: 5px;
+    top: 75.5px;
+    left: 224.15px;
+    width: 125px;
+    height: 68px;
+    z-index: 1000;
+}
+#folder_name {
+    width: 120px ;
+    height: 31.65px;
+    border: 0px solid var(--color_1);
+    border-radius: 5px;    
+}
+#new_folder {
+    width: 120px ;
+    height: 31.65px;
+    border: 0px solid var(--color_1);
+    border-radius: 5px;
+}#new_name {
+    width: 120px ;
+    height: 31.65px;
+    border: 0px solid var(--color_1);
+    border-radius: 5px;
+}
+#delete_button, #copy_button, #move_button, #rename_button {
+    margin: 0;
+    font-size: 18px;
+    padding: 5px 15px 5px 15px ;
+}
+#delete_button {
+    border-radius: 20px 0 0 20px ;
+    border: 2px solid var(--color_1);
+    border-width: 2px 0 2px 2px;
+}
+#copy_button {
+    border: 2px solid var(--color_1);
+    border-width: 2px 0px 2px 0;
+    border-radius: 0;
+}
+#move_button {
+    border: 2px solid var(--color_1);
+    border-width: 2px 0px 2px 0;
+    border-radius: 0;
+}
+#rename_button {
+    border-radius: 0 20px 20px 0 ;
+    border: 2px solid var(--color_1);
+    border-width: 2px 2px 2px 0px;
+}
+
+#listas {
+    width: 70%;
+    /* height: 100px; */
+}
+#type, #alphabetical, #mod_day, #size {
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+#sort {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: var(--color_1);
+    color: var(--color_4);
+    margin: 10px 10px 0 0;
+    padding: 5px  15px 5px 15px;
+}
+#sort:hover{
+    background-color: var(--color_4);
+    color: var(--color_1);
+}
+
+#contiene{
+    width: 70%;
+    height: 50vh;
+    position: relative;
+}
+.espacio{  
+    width: 100%;
+    height: 50vh;
+    max-height: 50vh;
+    overflow-y: auto;
+    background-color: var(--color_4);
+    border: 3px solid var(--color_1);
+    border-radius: 10px ;
+    position: absolute;
+    
+}
+.file, .folder{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.oculto {
+    /* visibility:hidden; */
+}
+.org {
+    display: inline-block;
+    vertical-align: middle;
+}
+.check_org {
+
+}
+.img_org {
+    width: 35px;
+    height: auto;
+}
+.text_org {
+    margin: 0 20px 0 0;
+    width: 180px;
+    max-width: 180px;
+}
+.text_org:hover{
+    cursor: pointer;
+}
+.date_org {
+    margin: 0 40px 0 0;
+}
